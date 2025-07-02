@@ -78,7 +78,7 @@
 //    }
 //    closuer(i);
 // }
-// HOF
+// HOF(high order function)
 // function xyz(cb){
 //     console.log("I AM XYZ FUNCTION");
 //     cb();
@@ -88,13 +88,14 @@
 //     console.log('i m cb funcrion')
 // }
 // xyz(cb);
-function rupesh(cb){
-    console.log("rupesh");
-    return cb();
+
+// function rupesh(cb){
+//     console.log("rupesh");
+//     return cb();
     
-}
-function cb() {
-    console.log("lol");
+// }
+// function cb() {
+//     console.log("lol");
     
-}
-rupesh(cb);
+// }
+// rupesh(cb);
